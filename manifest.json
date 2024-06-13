@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Image Ad Remover",
+  "version": "1.0",
+  "description": "Ad Image Remover by OGITech",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "script.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
